@@ -1,0 +1,60 @@
+
+**** Error file opened at 20150324 215430 Central European Time Rel 3.0.7 (2011-04-20) [720.88]
+Error:  >Tue Mar 24 21:54:30,825<    RfcException: [null]
+    message: Parameter backend system number ('sysnr') needs to be a two digit number string instead of 'NSP'
+    Return code: RFC_INVALID_PARAMETER(19)
+    error group: 101
+    key: RFC_ERROR_PROGRAM
+
+	at com.sap.conn.rfc.api.RfcOptions.checkParameters(RfcOptions.java:218)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcClient.connect(MiddlewareJavaRfc.java:1328)
+	at com.sap.conn.jco.rt.ClientConnection.connect(ClientConnection.java:731)
+	at com.sap.conn.jco.rt.PoolingFactory.init(PoolingFactory.java:103)
+	at com.sap.conn.jco.rt.ConnectionManager.createFactory(ConnectionManager.java:293)
+	at com.sap.conn.jco.rt.DefaultConnectionManager.createFactory(DefaultConnectionManager.java:46)
+	at com.sap.conn.jco.rt.ConnectionManager.getFactory(ConnectionManager.java:262)
+	at com.sap.conn.jco.rt.RfcDestination.initialize(RfcDestination.java:509)
+	at com.sap.conn.jco.rt.RfcDestination.getAttributes(RfcDestination.java:347)
+	at com.sap.conn.jco.rt.RfcDestination.getAttributes(RfcDestination.java:27)
+	at com.anas.tef.JcoClientApp.main(JcoClientApp.java:58)
+
+
+**** Error file opened at 20150324 225731 Central European Time Rel 3.0.7 (2011-04-20) [720.88]
+Error:  >Tue Mar 24 22:57:31,151<    RfcException: [null]
+    message: Parameter backend system number ('sysnr') needs to be a two digit number string instead of 'NSP'
+    Return code: RFC_INVALID_PARAMETER(19)
+    error group: 101
+    key: RFC_ERROR_PROGRAM
+
+	at com.sap.conn.rfc.api.RfcOptions.checkParameters(RfcOptions.java:218)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcClient.connect(MiddlewareJavaRfc.java:1328)
+	at com.sap.conn.jco.rt.ClientConnection.connect(ClientConnection.java:731)
+	at com.sap.conn.jco.rt.PoolingFactory.init(PoolingFactory.java:103)
+	at com.sap.conn.jco.rt.ConnectionManager.createFactory(ConnectionManager.java:293)
+	at com.sap.conn.jco.rt.DefaultConnectionManager.createFactory(DefaultConnectionManager.java:46)
+	at com.sap.conn.jco.rt.ConnectionManager.getFactory(ConnectionManager.java:262)
+	at com.sap.conn.jco.rt.RfcDestination.initialize(RfcDestination.java:509)
+	at com.sap.conn.jco.rt.RfcDestination.getAttributes(RfcDestination.java:347)
+	at com.sap.conn.jco.rt.RfcDestination.getAttributes(RfcDestination.java:27)
+	at com.anas.tef.JcoClientApp.main(JcoClientApp.java:58)
+
+
+**** Error file opened at 20150325 235139 Central European Time Rel 3.0.7 (2011-04-20) [720.88]
+Error:  >Wed Mar 25 23:51:39,035<    >RfcGetException rc (7) message: Der Funktionsbaustein "BC400_DDS_FLIGHTLIST_GET" ist nicht 'remote' aufrufbar.
+<RfcGetException
+
+
+**** Error file opened at 20150331 023311 Central European Summer Time Rel 3.0.7 (2011-04-20) [720.88]
+Error:  >Tue Mar 31 02:33:11,085<    >RfcGetException rc (7) message: Der Funktionsbaustein "Z_GET_SFLIGHT" ist nicht 'remote' aufrufbar.
+<RfcGetException
+
+
+**** Error file opened at 20150331 023637 Central European Summer Time Rel 3.0.7 (2011-04-20) [720.88]
+Error:  >Tue Mar 31 02:36:37,727<    >RfcGetException rc (7) message: Der Funktionsbaustein "Z_GET_SFLIGHT" ist nicht 'remote' aufrufbar.
+<RfcGetException
+
+
+**** Error file opened at 20150331 024659 Central European Summer Time Rel 3.0.7 (2011-04-20) [720.88]
+Error:  >Tue Mar 31 02:46:59,833<    >RfcGetException rc (7) message: Der Funktionsbaustein ist nicht aktiviert oder ohne Coding.
+<RfcGetException
+

@@ -1,0 +1,8 @@
+#for tests only !
+#Tue Mar 31 05:59:20 CEST 2015
+jco.client.lang=de
+jco.client.client=001
+jco.client.passwd=MySAP85i
+jco.client.user=BCUSER
+jco.client.sysnr=00
+jco.client.ashost=192.168.0.10

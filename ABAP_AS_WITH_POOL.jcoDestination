@@ -1,0 +1,10 @@
+#for tests only !
+#Wed Mar 25 22:25:31 CET 2015
+jco.client.lang=de
+jco.destination.peak_limit=10
+jco.client.client=001
+jco.client.passwd=MySAP85i
+jco.client.user=BCUSER
+jco.client.sysnr=00
+jco.destination.pool_capacity=3
+jco.client.ashost=192.168.0.10
